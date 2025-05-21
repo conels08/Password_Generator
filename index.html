@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Karla:wght@200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="app-container">
+            <div class="content-container">
+                <h1>Generate a<br> <span class="text-color">random password</span></h1>
+                <p>Never use an insecure password again</p>
+                <button id="generate-btn">Generate passwords</button>
+                <span class="divider"></span>
+                <div class="password-wrapper">
+                    <div class="small individual-wrapper">
+                        <label for="password-field" class="password-header">9 character password: </label>
+                        <input type="text" id="password-field" name="password-field" class="password-field" readonly></p>
+                    </div>
+                    <div class="large individual-wrapper">
+                        <label for="password-field-two" class="password-header">16 character password: </label>
+                        <input type="text" id="password-field-two" name="password-field-two" class="password-field" readonly></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
