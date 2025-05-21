@@ -48,6 +48,20 @@ p {
 
 button {
     border: none;
+    transition: all 0.2s;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+    color: #fff;
+    box-shadow: 0px 0px 4px #000;
+}
+button:focus {
+    outline: none;
+}
+button:active {
+    transform: scale(0.95);
 }
 
 button,
